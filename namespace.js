@@ -10,7 +10,7 @@ var DALL0078 = {
     divBox.addEventListener("click", function (ev) {
       ev.currentTarget.style.backgroundColor = "#000";
       ev.currentTarget.style.color = "#FFF";
-      ev.currentTarget.style.border = "0.2em groove #53A";
+      ev.currentTarget.style.border = "1.0em groove #53A";
     });
   },
   mousFunc: function (ev) {
