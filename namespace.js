@@ -10,12 +10,13 @@ var DALL0078 = {
     divBox.addEventListener("click", function (ev) {
       ev.currentTarget.style.backgroundColor = "#000";
       ev.currentTarget.style.color = "#FFF";
-      ev.currentTarget.style.border = "1.0em groove #53A";
-      ev.currentTarget.style.padding = "0 auto";
+      ev.currentTarget.style.border = "0.8em groove #53A";
+      ev.currentTarget.style.textAlign = "center";
+      ev.currentTarget.style.verticalAlign = "center";
     });
     //FUN PART
     var divSteve = document.getElementById('boxes').firstElementChild;
-    divSteve.textContent = "St3v3 luv my Stud3nts";
+    divSteve.textContent = "St3v3 luv my S2 Stud3nts";
     divSteve.addEventListener("mouseover", DALL0078.mousFunc);
     divSteve.addEventListener("mouseout", DALL0078.mousFunc);
   },
