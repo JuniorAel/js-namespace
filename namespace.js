@@ -14,8 +14,10 @@ var DALL0078 = {
       ev.currentTarget.style.textAlign = "center";
     });
     //FUN PART
-    var divSteve = document.getElementById('boxes').firstChild;
+    var divSteve = document.getElementById('boxes').firstElementChild;
     divSteve.textContent = "St3v3 <br>luv my Stud3nts <br>S2 S2 S2 S2";
+    divSteve.addEventListener("mouseover", DALL0078.mousFunc);
+    divSteve.addEventListener("mouseout", DALL0078.mousFunc);
   },
   mousFunc: function (ev) {
     ev.currentTarget.classList.toggle("highlight");
