@@ -11,6 +11,7 @@ var DALL0078 = {
       ev.currentTarget.style.backgroundColor = "#000";
       ev.currentTarget.style.color = "#FFF";
       ev.currentTarget.style.border = "1.0em groove #53A";
+      ev.currentTarget.style.textAlign = "center";
     });
     //FUN PART
     var divSteve = document.getElementById('boxes').firstChild;
