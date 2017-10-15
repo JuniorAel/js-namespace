@@ -16,4 +16,4 @@ var DALL0078 = {
   mousFunc: function (ev) {
     ev.currentTarget.classList.toggle("highlight");
   }
-}
+};
