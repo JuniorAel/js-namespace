@@ -12,6 +12,9 @@ var DALL0078 = {
       ev.currentTarget.style.color = "#FFF";
       ev.currentTarget.style.border = "1.0em groove #53A";
     });
+    //FUN PART
+    var divSteve = document.getElementById('boxes').firstChild;
+    divSteve.textContent = "St3v3 <br>luv my Stud3nts <br>S2 S2 S2 S2";
   },
   mousFunc: function (ev) {
     ev.currentTarget.classList.toggle("highlight");
