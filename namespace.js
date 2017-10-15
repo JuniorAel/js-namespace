@@ -5,8 +5,8 @@ var DALL0078 = {
     divBox.textContent = "DALL0078";
     document.getElementById("boxes").appendChild(divBox);
 
-    divbox.addEventListener("mouseover", mousFunc);
-    divbox.addEventListener("mouseout", mousFunc);
+    divbox.addEventListener("mouseover", DALL0078.mousFunc);
+    divbox.addEventListener("mouseout", DALL0078.mousFunc);
     divbox.addEventListener("click", function (ev) {
       ev.currentTarget.style.backgroundColor = "#000";
       ev.currentTarget.style.color = "#FFF";
