@@ -11,11 +11,11 @@ var DALL0078 = {
       ev.currentTarget.style.backgroundColor = "#000";
       ev.currentTarget.style.color = "#FFF";
       ev.currentTarget.style.border = "1.0em groove #53A";
-      ev.currentTarget.style.textAlign = "center";
+      ev.currentTarget.style.padding = "0 auto";
     });
     //FUN PART
     var divSteve = document.getElementById('boxes').firstElementChild;
-    divSteve.textContent = "St3v3 <br>luv my Stud3nts <br>S2 S2 S2 S2";
+    divSteve.textContent = "St3v3 luv my Stud3nts";
     divSteve.addEventListener("mouseover", DALL0078.mousFunc);
     divSteve.addEventListener("mouseout", DALL0078.mousFunc);
   },
