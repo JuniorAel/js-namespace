@@ -5,8 +5,8 @@ var DALL0078 = {
     divBox.textContent = "DALL0078";
     document.getElementById("boxes").appendChild(divBox);
 
-    divBox.addEventListener("mouseover", DALL0078.mousFunc);
-    divBox.addEventListener("mouseout", DALL0078.mousFunc);
+    divBox.addEventListener("mouseover", DALL0078.mousOver);
+    divBox.addEventListener("mouseout", DALL0078.mousOut);
     divBox.addEventListener("click", function (ev) {
       ev.currentTarget.style.backgroundColor = "#000";
       ev.currentTarget.style.color = "#FFF";
@@ -20,7 +20,11 @@ var DALL0078 = {
     divSteve.addEventListener("mouseover", DALL0078.mousFunc);
     divSteve.addEventListener("mouseout", DALL0078.mousFunc);
   },
-  mousFunc: function (ev) {
+  mousOver: function (ev) {
     ev.currentTarget.classList.toggle("highlight");
+  },
+  mousOut: function (ev) {
+    ev.currentTarget.classList.toggle("highlight");
+    ev.currentTarget.style= null;
   }
 };
